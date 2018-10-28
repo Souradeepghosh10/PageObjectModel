@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50825" started-at="2018-06-24T11:31:57Z" finished-at="2018-06-24T11:32:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50825" started-at="2018-06-24T11:31:57Z" finished-at="2018-06-24T11:32:48Z">
+      <class name="test.TestRun">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestRun@5315b42e]" name="setUp" is-config="true" duration-ms="648" started-at="2018-06-24T17:01:56Z" finished-at="2018-06-24T17:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifySignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestRun@5315b42e]" name="testVerifySignUp" duration-ms="48560" started-at="2018-06-24T17:01:57Z" data-provider="signUpRegistrationAndBrowser" finished-at="2018-06-24T17:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akansha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pasricha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySignUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.TestRun@5315b42e]" name="getResult" is-config="true" duration-ms="2150" started-at="2018-06-24T17:02:45Z" finished-at="2018-06-24T17:02:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySignUp status=SUCCESS method=TestRun.testVerifySignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestRun@5315b42e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestRun@5315b42e]" name="tearDown" is-config="true" duration-ms="11316" started-at="2018-06-24T17:02:48Z" finished-at="2018-06-24T17:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
