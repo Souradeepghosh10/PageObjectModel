@@ -24,15 +24,16 @@ public class LoginTest extends BaseTest {
 		loginPage.loginToFaceBook("Hello", "Hello");
 		test.log(LogStatus.FAIL, "Test fails");
 		Assert.assertTrue(false);
-		;
+		
 	}
 
 	@Test
 	public void testDemoFaceBook() {
+		//test commit
 		ExtentTest test = ExtentTestManager.getTest();
 		test.log(LogStatus.FAIL, "Test fails");
 		Assert.assertTrue(false);
-		;
+		
 	}
 /*
 	@AfterMethod
