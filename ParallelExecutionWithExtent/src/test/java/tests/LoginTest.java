@@ -15,6 +15,7 @@ public class LoginTest extends BaseTest {
 
 	@Test
 	public void loginFaceBook() {
+		//test
 		ExtentTest test = ExtentTestManager.getTest();
 		System.out.println(Thread.currentThread().getId());
 		WebDriver driver = ThreadWebDriver.get();
