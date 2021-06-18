@@ -12,6 +12,8 @@ public class Demo
 	@Test
 	public void testDemo()
 	{
+		//master 1 commit
+		
 		 ExtentTest test = ExtentTestManager.getTest();
 		 test.log(LogStatus.PASS,"Test pass");
 		System.out.println("Hello Team");
