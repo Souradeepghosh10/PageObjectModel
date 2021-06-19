@@ -28,5 +28,21 @@ public class Demo
 		 test.log(LogStatus.PASS,"Test pass");
 		System.out.println("Hello Team");
 	}
+	//test commit
+	@Test
+	public void testDemo2()
+	{
+		 ExtentTest test = ExtentTestManager.getTest();
+		 test.log(LogStatus.PASS,"Test pass");
+		System.out.println("Hello Team");
+	}
+	
+	@Test
+	public void testDemo3()
+	{
+		 ExtentTest test = ExtentTestManager.getTest();
+		 test.log(LogStatus.PASS,"Test pass");
+		System.out.println("Hello Team");
+	}
 
 }
