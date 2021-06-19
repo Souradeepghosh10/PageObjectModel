@@ -44,7 +44,7 @@ public class Demo
 		 test.log(LogStatus.PASS,"Test pass");
 		System.out.println("Hello Team");
 	}
-	//test first commit to cherry top
+	//test first commit to cherry top and merge master
 	@Test
 	public void testDemo7()
 	{
@@ -52,5 +52,14 @@ public class Demo
 		 test.log(LogStatus.PASS,"Test pass");
 		System.out.println("Hello Team");
 	}
+	
+	//test first commit to revert
+		@Test
+		public void testDemo8()
+		{
+			 ExtentTest test = ExtentTestManager.getTest();
+			 test.log(LogStatus.PASS,"Test pass");
+			System.out.println("Hello Team");
+		}
 
 }
