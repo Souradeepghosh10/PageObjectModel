@@ -44,5 +44,13 @@ public class Demo
 		 test.log(LogStatus.PASS,"Test pass");
 		System.out.println("Hello Team");
 	}
+	//test first commit to cherry top
+	@Test
+	public void testDemo7()
+	{
+		 ExtentTest test = ExtentTestManager.getTest();
+		 test.log(LogStatus.PASS,"Test pass");
+		System.out.println("Hello Team");
+	}
 
 }
