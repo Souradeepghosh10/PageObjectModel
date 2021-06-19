@@ -55,5 +55,14 @@ public class Demo
 		System.out.println("Hello Team");
 	}
 	
+	public void testDemo5()
+	{
+		
+	//revert
+		 ExtentTest test = ExtentTestManager.getTest();
+		 test.log(LogStatus.PASS,"Test pass");
+		System.out.println("Hello Team");
+	}
+	
 	
 }
