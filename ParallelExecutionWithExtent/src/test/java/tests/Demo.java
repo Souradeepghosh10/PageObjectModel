@@ -45,4 +45,15 @@ public class Demo
 		System.out.println("Hello Team");
 	}
 	
+	@Test
+	public void testDemo4()
+	{
+		
+	//cherry pick-master
+		 ExtentTest test = ExtentTestManager.getTest();
+		 test.log(LogStatus.PASS,"Test pass");
+		System.out.println("Hello Team");
+	}
+	
+	
 }
