@@ -24,6 +24,7 @@ public class LoginTest extends BaseTest {
 		loginPage.loginToFaceBook("Hello", "Hello");
 		test.log(LogStatus.FAIL, "Test fails");
 		Assert.assertTrue(false);
+		//test
 		
 	}
 
